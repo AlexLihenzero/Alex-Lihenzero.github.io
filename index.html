@@ -4,49 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Alex Lihenzero | AI Engineering & Software Development</title>
+    <meta
+        name="description"
+        content="Alex Lihenzero — AI and Software Developer building practical solutions with AI, web technologies, and backend systems."
+    >
+
+    <title>Alex Lihenzero | AI & Software Developer</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <div class="logo">Alex Lihenzero</div>
+    <!-- ================================
+         HEADER / NAVIGATION
+    ================================= -->
 
-            <ul class="nav-links">
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                Alex<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
 
-    <!-- Hero Section -->
     <main>
+
+        <!-- ================================
+             HERO
+        ================================= -->
 
         <section id="home" class="hero">
 
             <div class="hero-content">
 
-                <p class="intro">Hello, I'm</p>
+                <p class="eyebrow">AI • SOFTWARE • WEB DEVELOPMENT</p>
 
-                <h1>Alex Lihenzero</h1>
+                <h1>
+                    Building practical
+                    <span>technology solutions.</span>
+                </h1>
 
-                <h2>AI Engineering & Software Developer</h2>
-                <p>
-                    I build practical software solutions at the intersection of
-                    artificial intelligence, web development, and backend engineering.
+                <p class="hero-description">
+                    I'm Alex Lihenzero, an AI and Software Developer focused on
+                    building useful applications with artificial intelligence,
+                    modern web technologies, APIs, and backend systems.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn">View My Projects</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-decoration" aria-hidden="true">
+                <div class="hero-circle"></div>
+                <div class="hero-grid"></div>
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             ABOUT
+        ================================= -->
+
+        <section id="about" class="section about-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">ABOUT ME</p>
+
+                <h2>From accounting to technology.</h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        My journey combines accounting, artificial intelligence,
+                        and software development. With a professional background
+                        in accounting, I developed an interest in technology and
+                        began exploring how software and AI can be used to solve
+                        practical problems.
+                    </p>
+
+                    <p>
+                        I have completed my AI engineering studies and continue
+                        strengthening my practical programming skills through
+                        hands-on projects. My current focus includes web
+                        development, backend engineering, APIs, databases,
+                        and modern software development.
+                    </p>
+
+                    <p>
+                        I enjoy turning ideas into working applications and
+                        continuously learning through real-world projects,
+                        experimentation, and collaboration.
+                    </p>
+
+                </div>
+
+                <div class="about-focus">
+
+                    <div class="focus-card">
+
+                        <span class="focus-number">01</span>
+
+                        <h3>Build</h3>
+
+                        <p>
+                            Turning ideas into functional software and
+                            practical applications.
+                        </p>
+
+                    </div>
+
+                    <div class="focus-card">
+
+                        <span class="focus-number">02</span>
+
+                        <h3>Learn</h3>
+
+                        <p>
+                            Continuously developing skills through hands-on
+                            projects and experimentation.
+                        </p>
+
+                    </div>
+
+                    <div class="focus-card">
+
+                        <span class="focus-number">03</span>
+
+                        <h3>Solve</h3>
+
+                        <p>
+                            Applying technology to practical problems and
+                            useful real-world solutions.
+                        </p>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -54,124 +186,209 @@
         </section>
 
 
-        <!-- About Section -->
-        <section id="about" class="section">
+        <!-- ================================
+             SKILLS
+        ================================= -->
 
-    <h2>About Me</h2>
+        <section id="skills" class="section skills-section">
 
-    <p>
-        My journey combines accounting, artificial intelligence, and software
-        development. With a professional background in accounting, I developed
-        an interest in technology and began exploring how software and AI can
-        be used to solve practical problems.
-    </p>
+            <div class="section-heading">
 
-    <p>
-        I have completed my AI engineering studies and continue to strengthen
-        my practical skills through hands-on projects. I am also completing
-        my programming studies, with a growing focus on web development,
-        backend engineering, APIs, databases, and modern software development.
-    </p>
+                <p class="section-label">TECHNICAL SKILLS</p>
 
-    <p>
-        I enjoy turning ideas into working applications and collaborating on
-        projects that allow me to learn, build, and solve real-world problems.
-    </p>
+                <h2>Tools I work with.</h2>
 
-</section>\
+            </div>
 
+            <div class="skills-grid">
 
-        <!-- Skills Section -->
-        <section id="skills" class="section">
+                <article class="skill-group">
 
-            <h2>My Skills</h2>
+                    <span class="skill-icon">01</span>
 
-            <div class="skills-container">
+                    <h3>Programming</h3>
 
-                <div class="skill">Python</div>
-                <div class="skill">JavaScript</div>
-                <div class="skill">HTML & CSS</div>
-                <div class="skill">React</div>
-                <div class="skill">Node.js</div>
-                <div class="skill">Express.js</div>
-                <div class="skill">MongoDB</div>
-                <div class="skill">Git & GitHub</div>
+                    <p>Python, JavaScript</p>
+
+                </article>
+
+                <article class="skill-group">
+
+                    <span class="skill-icon">02</span>
+
+                    <h3>Frontend</h3>
+
+                    <p>HTML, CSS, React</p>
+
+                </article>
+
+                <article class="skill-group">
+
+                    <span class="skill-icon">03</span>
+
+                    <h3>Backend</h3>
+
+                    <p>Node.js, Express.js, REST APIs</p>
+
+                </article>
+
+                <article class="skill-group">
+
+                    <span class="skill-icon">04</span>
+
+                    <h3>Databases</h3>
+
+                    <p>MongoDB, SQL</p>
+
+                </article>
+
+                <article class="skill-group">
+
+                    <span class="skill-icon">05</span>
+
+                    <h3>AI & Data</h3>
+
+                    <p>AI Engineering, Data Processing</p>
+
+                </article>
+
+                <article class="skill-group">
+
+                    <span class="skill-icon">06</span>
+
+                    <h3>Tools</h3>
+
+                    <p>Git, GitHub, VS Code</p>
+
+                </article>
 
             </div>
 
         </section>
 
 
-        <!-- Projects Section -->
-        <section id="projects" class="section">
+        <!-- ================================
+             PROJECTS
+        ================================= -->
 
-            <h2>Projects</h2>
+        <section id="projects" class="section projects-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">MY WORK</p>
+
+                <h2>Projects</h2>
+
+            </div>
 
             <div class="projects-container">
 
+                <!-- CampusConnect -->
                 <article class="project-card">
 
                     <h3>CampusConnect</h3>
 
                     <p>
-                        A collaborative campus platform developed as a team project.
-                        I contributed to the backend Posts CRUD API, including creating,
-                        retrieving, updating, and deleting posts using Node.js,
-                        Express.js, and MongoDB.
+                        A student-focused community platform developed as a
+                        collaborative team project. I contributed to the backend
+                        Posts CRUD API, implementing functionality for creating,
+                        retrieving, updating, and deleting posts.
                     </p>
 
                     <p class="technologies">
-                        Node.js • Express.js • MongoDB • GitHub
+                        Node.js &bull; Express.js &bull; MongoDB &bull; GitHub
                     </p>
+
+                    <a
+                        href="https://github.com/JakeGitahi/iyf-s11-week-12-team-JakeGitahi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project &rarr;
+                    </a>
 
                 </article>
 
 
+                <!-- CommunityHub -->
                 <article class="project-card">
 
                     <h3>CommunityHub</h3>
 
                     <p>
                         A React-based community dashboard application featuring
-                        reusable components, CRUD functionality, search, categories,
-                        and browser storage.
+                        reusable components, client-side routing, API data
+                        fetching, loading and error states, and persistent
+                        browser storage.
                     </p>
 
                     <p class="technologies">
-                        React • JavaScript • CSS • LocalStorage
+                        React &bull; JavaScript &bull; CSS &bull; LocalStorage
                     </p>
+
+                    <a
+                        href="https://github.com/AlexLihenzero/iyf-s11-week-09-AlexLihenzero"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project &rarr;
+                    </a>
 
                 </article>
 
 
+                <!-- Expense Tracker -->
                 <article class="project-card">
 
                     <h3>Expense Tracker</h3>
 
                     <p>
-                        A Python project for recording and managing income and
-                        expenses while practicing programming and database concepts.
+                        A Python-based project for recording and managing income
+                        and expenses while developing practical programming,
+                        data management, and problem-solving skills.
                     </p>
 
                     <p class="technologies">
-                        Python • Databases
+                        Python &bull; Databases
                     </p>
+
+                    <a
+                        href="https://github.com/AlexLihenzero/AI-ENGINEERING"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project &rarr;
+                    </a>
 
                 </article>
 
 
+                <!-- AI Report Summarizer -->
                 <article class="project-card">
 
                     <h3>AI Report Summarizer</h3>
 
                     <p>
-                        An AI-focused project exploring how intelligent systems can
-                        process and summarize reports into useful information.
+                        An AI-focused project exploring how intelligent systems
+                        can process reports and transform large amounts of
+                        information into concise and useful summaries.
                     </p>
 
                     <p class="technologies">
-                        Python • AI
+                        Python &bull; AI
                     </p>
+
+                    <a
+                        href="https://github.com/ShammahPaul/wca-ai-tool--Galactic-Defenders-"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project &rarr;
+                    </a>
 
                 </article>
 
@@ -180,25 +397,44 @@
         </section>
 
 
-        <!-- Contact Section -->
-        <section id="contact" class="section">
+        <!-- ================================
+             CONTACT
+        ================================= -->
 
-            <h2>Let's Connect</h2>
+        <section id="contact" class="section contact-section">
 
-            <p>
-                Interested in working together, discussing technology, or seeing
-                what I am building?
-            </p>
+            <div class="contact-card">
 
-            <div class="contact-links">
+                <p class="section-label">GET IN TOUCH</p>
 
-                <a href="https://github.com/" target="_blank">
-                    GitHub
-                </a>
+                <h2>Let's build something useful.</h2>
 
-                <a href="https://www.linkedin.com/" target="_blank">
-                    LinkedIn
-                </a>
+                <p>
+                    Interested in technology, collaboration, or discussing
+                    a project idea? I'd be happy to connect.
+                </p>
+
+                <div class="contact-links">
+
+                    <a
+                        href="https://github.com/AlexLihenzero"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                    >
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/alex-lihenzero-602184407/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                    >
+                        LinkedIn
+                    </a>
+
+                </div>
 
             </div>
 
@@ -207,11 +443,15 @@
     </main>
 
 
-    <!-- Footer -->
-    <footer>
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer class="site-footer">
 
         <p>
-            &copy; 2026 Alex Lihenzero. All rights reserved.
+            &copy; <span id="current-year">2026</span>
+            Alex Lihenzero. All rights reserved.
         </p>
 
     </footer>
